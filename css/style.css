@@ -419,6 +419,7 @@ footer {
     align-items: center;
     padding-top: 15px;
     position: relative;
+    margin-bottom: 20px;
 }
 .bot {
     margin: 0;
@@ -759,21 +760,4 @@ footer {
     color: #fff;
     border-radius: 5px;
     text-align: center;
-}
-
-/*rodapé teste*/
-.footer {
-    background-color: #1a2538;
-    padding: 50px 0;
-}
-
-.container-footer {
-    max-width: 1400px;
-    padding: 0 4%;
-    margin: auto;
-}
-
-.row-footer {
-    display: flex;
-    flex-wrap: wrap;
 }
