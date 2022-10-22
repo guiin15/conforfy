@@ -154,14 +154,6 @@ h1,h2,h3,h4 {
     transition: all 1s;
     z-index: 80;
 }
-.sidebar p{
-    color: #909090ad;
-    text-align: center;
-    justify-content: center;
-    display: flex;
-    top: 670px;
-    position: relative;
-   }
 
 .show-menu .sidebar{
     right: 0;
@@ -172,6 +164,15 @@ h1,h2,h3,h4 {
     top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.sidebar p{
+ color: #909090ad;
+ text-align: center;
+ justify-content: center;
+ display: flex;
+ top: 670px;
+ position: relative;
 }
 
 .menu-item{
@@ -196,13 +197,13 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: linear-gradient(rgba(16, 29, 44, 0.925), rgba(16, 29, 44, 0.727)), url("../img/casaback.jpg");
+    background-image: linear-gradient(rgba(16, 29, 44, 0.925), rgba(16, 29, 44, 0.727)), url("../img/pexels-binyamin-mellish-106399.jpg");
     background-size: cover;
     background-repeat:no-repeat;
-    background-position: center;
+    background-position:left;
     color: #bbbaba;
     text-align: center;
-    padding: 200px 0 150px;
+    padding: 20px 0 50px;
 }
 
 header a {
@@ -229,8 +230,8 @@ header h1 {
     padding: 10px 30px;
 }
 #topo {
-    padding-top: 260px;
-    padding-bottom: 190px;
+    padding-top: 200px;
+    padding-bottom: 150px;
 
 }
 
@@ -373,6 +374,25 @@ img[alt~="email"] {
     color: #bbbaba;
 }
 /*Rodapé*/
+.voltarini{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #1a2538;
+    padding-bottom: 50px;
+}
+
+.voltar {
+    background-color: #011126;
+    padding: 6px;
+    border-radius: 8px;
+}
+
+.voltar h4 {
+    color: #BF9B6F;
+    font: var(--font-action);
+}
 
 footer {
     text-align: center;
@@ -458,6 +478,12 @@ footer {
     align-items: center;
 }
 /*destaques*/
+img{
+     width: 100px;
+     height: 100px;
+     border: 1px solid black;
+     object-fit: contain;
+}
 ::after, ::before {
     box-sizing: border-box;
 }
@@ -614,7 +640,7 @@ footer {
     object-fit: cover;
     width: 100%;
     max-width: 100%;
-    height: auto;
+    height: 8cm;
     vertical-align: middle;
     border-radius: 5px;
 }
