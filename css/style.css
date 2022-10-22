@@ -87,7 +87,7 @@ h1,h2,h3,h4 {
     position: fixed;
     z-index: 100;
     right: 3rem;
-    top: 2.5rem;
+    top: 2.9rem;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -159,7 +159,7 @@ h1,h2,h3,h4 {
     text-align: center;
     justify-content: center;
     display: flex;
-    top: 670px;
+    top: 650px;
     position: relative;
    }
 
