@@ -202,7 +202,7 @@ header {
     background-position: center;
     color: #bbbaba;
     text-align: center;
-    padding: 200px 0 150px;
+    padding: 300px 0 150px;
 }
 
 header a {
@@ -784,4 +784,25 @@ footer {
 .row-footer {
     display: flex;
     flex-wrap: wrap;
+}
+
+.voltarini{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #1a2538;
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+
+.voltar {
+    background-color: #011126;
+    padding: 6px;
+    border-radius: 8px;
+}
+
+.voltar h4 {
+    color: #BF9B6F;
+    font: var(--font-action);
 }
