@@ -14,10 +14,11 @@
     <link rel="icon" type="image/x-icon" href="img/logosite.svg">
     <script src="https://kit.fontawesome.com/2ffbc4bb4e.js" crossorigin="anonymous"></script>
     <title> Conforfy &ndash; Seu imóvel ideal</title>
+    
 </head>
     <!--corpo do site, contém tudo-->
 <body>
-    <!--logo, abaixo-->
+  <!--logo, abaixo-->
     <a href="index.html">
     <img src="img/logomarca 2.svg" class="logo">
     </a>
@@ -333,7 +334,7 @@
         </div>
         <div class="email">
             <img src="img/envelope-regular.svg" alt="email">
-            <p> <a href="mailto:guilhermeoliveiraa113@gmail.com"> contato@conforfy.com </a></p>
+            <p> <a href="mailto:conforfy234@gmail.com"> conforfy234@gmail.com </a></p>
         </div>
         </div>
     </section>
@@ -347,18 +348,10 @@
             A Conforfy é um site de catálogo de corretoras imobiliárias onde os usuários podem obter informações sobre algum imóvel de seu interesse. O objetivo concentra-se em mostrar aos usuários as possibilidades de casas para alugar ou comprar dos sites de nossas corretoras parceiras.
            </p>
           </div>
-          <div class="footer-contact">
+          <div id="contrato" class="footer-contact">
             <h2>Contrate-nos</h2>
-            <form action="processa.php" method="GET"> 
-              <input type="hidden" name="recipient" value="testeiseuemail@gmail.com"> 
-              <!-- Pode ser qualquer endereço de email -->
-              <input type="hidden" name="redirect" value="http://seudominio"> 
-              <!-- Após o envio, o usuário será redirecionado para a página configurada aqui -->
-              <input type="hidden" name="subject" value="teste de assunto">  
-              <!-- Assunto da mensagem -->
-              <input type="hidden" name="email" value="email@doseudominio">   
-              <!-- Deve ser uma conta de email ativa em seu domínio -->
-              
+            <form action="processa.php" method="post"> 
+
               <p> 
               Nome/Empresa<br /> 
               <input type="text" size="30" name="nome"> 
@@ -366,13 +359,13 @@
               
               <p>
               E-mail<br /> 
-              <input type="text" size="30" pattern="[^@\s]+@[^@\s]+\.[^@\s]+" name="e-mail inválido"> 
+              <input type="text" size="30" pattern="[^@\s]+@[^@\s]+\.[^@\s]+" name="email"> 
               </p>   
               
               <p> 
               Mensagem<br /> 
               <input type="text" size="35" name="mensagem"> 
-              </p> 
+              </p>
             </div>
             <div class="reibot"> 
               <div class="bot">
@@ -394,8 +387,7 @@
       </div>
     </footer>
 
-    
-
         <!--linkando JavaScript-->
 <script src="script.js"></script>
 </html>
+
